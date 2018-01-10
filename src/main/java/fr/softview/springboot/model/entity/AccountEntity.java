@@ -20,8 +20,7 @@ public class AccountEntity {
 
     private int balance;
 
-
-    public String getNumber() {
+	public String getNumber() {
         return number;
     }
 
@@ -36,4 +35,7 @@ public class AccountEntity {
     public void setBalance(int balance) {
         this.balance = balance;
     }
+
+    
+    
 }

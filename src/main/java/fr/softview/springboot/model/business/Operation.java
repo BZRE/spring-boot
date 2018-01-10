@@ -59,4 +59,13 @@ public class Operation {
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
+
+	@Override
+	public String toString() {
+		return "Operation [Id=" + Id + ", accountNumber=" + accountNumber + ", type=" + type + ", amount=" + amount
+				+ ", date=" + date + ", balance=" + balance + "]";
+	}
+    
+    
 }
+
